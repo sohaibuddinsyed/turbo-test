@@ -7,6 +7,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url))
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   outputFileTracingRoot: path.join(__dirname, "../../"),
+  output: "standalone",
 }
 
 export default nextConfig
